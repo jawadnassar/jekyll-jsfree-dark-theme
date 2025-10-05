@@ -5,7 +5,7 @@ homepage: true
 
 <div>
   <hr>
-  <h4>Blog</h4>
+  <h4 style="padding-top: 25px;">Blog</h4>
   <ul>
     {% for post in site.posts %}
       <li>{{ post.date | date: "%F" }} -  <a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
