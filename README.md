@@ -1,2 +1,7 @@
 # jekyll-jsfree-dark-theme
-a javascript free, dark &amp; minimalistic Jekyll theme
+
+
+A JavaScript-free, dark, and minimalistic [Jekyll](https://jekyllrb.com) theme built with [Bootstrap](https://getbootstrap.com) and designed for speed, clarity, and simplicity. 
+
+Ideal for developers who want a fast, lightweight blog without unnecessary complexity.
+
