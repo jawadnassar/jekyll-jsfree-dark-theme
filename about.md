@@ -12,9 +12,6 @@ Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pret
 Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
 
 
-## Links
-- [GitHub](https://github.com){:target="_blank"}
-- [RSS](https://jawad.ca/feed.xml){:target="_blank"}
 
 
 
