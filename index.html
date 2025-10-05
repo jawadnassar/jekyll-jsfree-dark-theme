@@ -1,0 +1,14 @@
+---
+layout: homepage
+homepage: true
+---
+
+<div>
+  <hr>
+  <h4>Blog</h4>
+  <ul>
+    {% for post in site.posts %}
+      <li>{{ post.date | date: "%F" }} -  <a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
