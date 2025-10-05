@@ -4,9 +4,9 @@
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} </title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/css/bsdark.css" />
-    <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/css/style.css" />
-    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/bsdark.css" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css" />
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ site.baseurl }}/sitemap.xml" />
     {% seo %} {% feed_meta %} 
   </head>
   <body class="container">
@@ -14,10 +14,10 @@
       <h1 class="page-title">{{ site.name }}</h1>
       <h5>{{ site.tagline }}</h5>
       <p class="navlinks">
-        <a href="{{ site.url }}{{ site.baseurl }}/about/">About</a> | <a href="{{ site.url }}{{ site.baseurl }}/feed.xml" target="_blank">RSS</a>
+        <a href="{{ site.baseurl }}/about/">About</a> | <a href="{{ site.baseurl }}/feed.xml" target="_blank">RSS</a>
       </p>
     {% else %}
-      <p class="navlinks"><a href="{{ site.url }}{{ site.baseurl }}/" class="text-decoration-none">← Back</a></p>
+      <p class="navlinks"><a href="{{ site.baseurl }}/" class="text-decoration-none">← Back</a></p>
     {% endif %}
     <div class="body">{{ content }}</div>
   </body>
